@@ -1,0 +1,7 @@
+# Normalise line endings in the repository (LF), whatever the contributor's OS uses.
+* text=auto
+*.pdf binary
+*.png binary
+*.jpg binary
+*.pptx binary
+*.joblib binary

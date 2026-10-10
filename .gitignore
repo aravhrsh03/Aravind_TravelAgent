@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+# generated artifacts (rebuild with scripts/)
+data/processed/
+.deepeval/
+*.log
+
+# --- local environments and secrets (never commit)
+venv/
+.env.local
+.streamlit/secrets.toml
+
+# --- caches and build leftovers
+.benchmarks/
+.pytest_cache/
+*.stackdump
+*.print.html
+presentation/_charts/
+.DS_Store
+Thumbs.db
+
+# --- extra files that are not part of the submission
+/europe_reviews_dataset.csv
+/google_review_ratings.csv
+/p-docs/

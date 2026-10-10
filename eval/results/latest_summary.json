@@ -1,0 +1,33 @@
+{
+  "retrieval_nDCG@10": {
+    "keyword (BM25)": 0.762,
+    "dense (MiniLM)": 0.727,
+    "hybrid (RRF)": 0.861,
+    "hybrid + cross-encoder rerank": 0.862
+  },
+  "preference_travel_type_acc": 1.0,
+  "guardrail_block_rate": 1.0,
+  "guardrail_benign_pass": 1.0,
+  "plan_mean_judge": 4.7,
+  "plan_pass_rate": 1.0,
+  "citation_coverage": 1.0,
+  "deepeval": {
+    "Recommendation quality [GEval]": {
+      "mean_score": 0.567,
+      "pass_rate": 0.5
+    },
+    "Answer Relevancy": {
+      "mean_score": 0.996,
+      "pass_rate": 1.0
+    },
+    "Contextual Relevancy": {
+      "mean_score": 0.768,
+      "pass_rate": 1.0
+    },
+    "Faithfulness": {
+      "mean_score": 1.0,
+      "pass_rate": 1.0
+    }
+  },
+  "claude_plans_mean_judge": 3.57
+}

@@ -1,0 +1,12 @@
+# Optional extras. Install AFTER requirements.txt:
+#   pip install -r requirements-extras.txt
+# pip will print a warning that chromadb wants posthog<6 while deepeval installs posthog>=7. It is harmless: the app disables
+# telemetry, and this exact combination is what the project was developed and tested with.
+#
+# --- evaluation (scripts/run_eval.py, scripts/run_deepeval.py): needs ANTHROPIC_API_KEY with credit
+deepeval==4.2.8
+# --- building the deck, diagrams and PDFs (scripts/build_deck.py, draw_architecture.py, build_pdfs.py)
+python-pptx==1.0.2
+matplotlib==3.10.6
+Markdown==3.7
+pillow==11.3.0

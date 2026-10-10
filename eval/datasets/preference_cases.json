@@ -1,0 +1,22 @@
+[
+  {"query": "A couple wants a 5-day trip focused on beaches, sightseeing and local food", "travel_type": "couple", "top": ["beach", "culture", "food"], "days": 5},
+  {"query": "Family of 4 with two kids, limited budget of $2500, 6 days, kid-friendly activities", "travel_type": "family", "top": ["family"], "days": 6, "budget_usd": 2500, "tier": "budget", "travelers": 4},
+  {"query": "Solo backpacking trip for 2 weeks, hiking, mountains and wildlife, cheap hostels", "travel_type": "solo", "top": ["nature"], "days": 14, "tier": "budget"},
+  {"query": "Bachelor party with friends, 4 nights of clubbing and bars", "travel_type": "friends", "top": ["nightlife"], "days": 5},
+  {"query": "Luxury honeymoon with spa, massages and a quiet beach resort for 7 days", "travel_type": "couple", "top": ["wellness", "beach"], "days": 7, "tier": "luxury"},
+  {"query": "Business conference in Singapore, 3 days, want good restaurants in the evenings", "travel_type": "business", "top": ["food"], "days": 3},
+  {"query": "We are 3 friends who love street food and night markets, one week in Asia, budget 1500 USD each", "travel_type": "friends", "top": ["food"], "days": 7},
+  {"query": "Weekend getaway with my wife, museums and art galleries, romantic dinners", "travel_type": "couple", "top": ["culture"], "days": 2},
+  {"query": "Retired parents want a relaxing yoga and ayurveda retreat for 10 days", "travel_type": "family", "top": ["wellness"], "days": 10},
+  {"query": "10-day family trip to theme parks and the zoo with toddlers", "travel_type": "family", "top": ["family"], "days": 10},
+  {"query": "Shopping trip with friends to malls and souks, 4 days, luxury hotels", "travel_type": "friends", "top": ["shopping"], "days": 4, "tier": "luxury"},
+  {"query": "History buff travelling alone, temples, forts and palaces, 6 days in November", "travel_type": "solo", "top": ["culture"], "days": 6, "month": 11},
+  {"query": "Snorkelling, diving and island hopping for our anniversary, 8 days in February", "travel_type": "couple", "top": ["beach"], "days": 8, "month": 2},
+  {"query": "Trekking and glaciers adventure, 9 days, we are a group of friends", "travel_type": "friends", "top": ["nature"], "days": 9},
+  {"query": "Cheap 5-day food tour on a budget, solo, love cooking classes and markets", "travel_type": "solo", "top": ["food"], "days": 5, "tier": "budget"},
+  {"query": "Family holiday with kids, beaches and aquarium, 6 days in December, budget 4000 dollars", "travel_type": "family", "top": ["family", "beach"], "days": 6, "budget_usd": 4000, "month": 12},
+  {"query": "Couple, 5 days, nightlife and beaches, no museums please", "travel_type": "couple", "top": ["nightlife", "beach"], "days": 5, "absent": ["culture"]},
+  {"query": "A week of scenic hikes, waterfalls and hot springs with my partner", "travel_type": "couple", "top": ["nature"], "days": 7},
+  {"query": "3-day city break alone for architecture, cafes and shopping, budget of €900", "travel_type": "solo", "top": ["culture", "food", "shopping"], "days": 3, "budget_usd": 972},
+  {"query": "Two week family trip with children for wildlife safari and nature, budget 2 lakh rupees", "travel_type": "family", "top": ["nature", "family"], "days": 14, "budget_usd": 2400}
+]

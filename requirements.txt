@@ -1,0 +1,30 @@
+# Core requirements: everything needed to run the API, the UI and the tests.
+# Python 3.11+ (developed and tested on 3.12, Windows 11)
+#   pip install -r requirements.txt
+# --- API & UI
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.11.9
+pydantic-settings==2.11.0
+python-dotenv==1.2.4
+streamlit==1.42.2
+requests==2.34.2
+plotly==5.24.0
+# --- data / ML
+pandas==2.2.3
+numpy==2.2.6
+pyarrow==25.0.1        # pyarrow 18.x crashes chromadb's native layer on Windows - keep >= 21
+scikit-learn==1.7.2
+joblib==1.4.2
+# --- retrieval
+sentence-transformers==5.1.1
+torch==2.7.1
+chromadb==1.0.20       # 1.5.x segfaults on some Windows setups; 1.0.20 verified
+rank-bm25==0.2.2
+# --- LLM
+anthropic==1.4.0
+# DeepEval and the document/deck builders are in requirements-extras.txt (DeepEval pins a newer posthog than ChromaDB,
+# so it must be installed in a second step; the app itself does not need it).
+# --- tests
+pytest==8.4.1
+httpx==0.27.2
